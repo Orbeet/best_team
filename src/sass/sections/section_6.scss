@@ -1,0 +1,47 @@
+.awards__title {
+  font-weight: bold;
+  text-align: center;
+  color: #1b202a;
+  text-align: center;
+}
+
+.awards__list {
+  list-style: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.awards__item {
+  width: 290px;
+
+  &:before {
+    display: block;
+    width: 12px;
+    height: 12px;
+    background-color: $marker-color;
+    content: '';
+  }
+}
+
+.awards__item-card {
+  position: relative;
+
+  &:hover .awards__overlay {
+    background-color: #d5d7d9;
+  }
+}
+
+.awards__overlay {
+  position: absolute;
+  width: 450px;
+  height: 220px;
+}
+
+.bg__image {
+  background-color: green;
+  width: 80px;
+  height: 160px;
+}

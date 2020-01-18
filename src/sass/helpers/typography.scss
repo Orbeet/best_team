@@ -4,7 +4,7 @@
     font-family: $main-font-stack;
     font-weight: bold;
     /* text-transform: uppercase; */
-    color: $white-color;
+    color: $title-color;
 
     &--blue {
       color: $main-color;
@@ -18,83 +18,81 @@
     font-family: $main-font-stack;
     font-weight: bold;
     /* text-transform: uppercase; */
-    color: $white-color;
+    color: $title-color;
 
     &--blue {
-        color: $main-color;
-      }
-      &--weight {
-        font-weight: 800;
+      color: $main-color;
+    }
+    &--weight {
+      font-weight: 800;
     }
   }
 }
 
 .third-title-sm {
-    @media (min-width:320px) {
-        font-size:14px;
-        font-family: $main-font-stack;
-        font-weight: 400;
-        color: $text-color;
-    
-        &--blue {
-            color: $main-color;
-          }
-          &--weight {
-              font-weight: 800;
-          }
+  @media (min-width: 320px) {
+    font-size: 14px;
+    font-family: $main-font-stack;
+    font-weight: 400;
+    color: $text-color;
+
+    &--blue {
+      color: $main-color;
     }
+    &--weight {
+      font-weight: 800;
+    }
+  }
 }
 
 .fourth-title-sm {
-    @media (min-width:320px) {
-        font-size:14px;
-        font-family: $main-font-stack;
-        font-weight: bold;
-        /*  text-transform: uppercase;  */
-        color: $text-color;
-    
-        &--blue {
-            color: $main-color;
-          }
-          &--weight {
-            font-weight: 800;
-        }
+  @media (min-width: 320px) {
+    font-size: 14px;
+    font-family: $main-font-stack;
+    font-weight: bold;
+    /*  text-transform: uppercase;  */
+    color: $text-color;
 
+    &--blue {
+      color: $main-color;
     }
+    &--weight {
+      font-weight: 800;
+    }
+  }
 }
 
-.fifth-title-sm  {
-    @media (min-width:320px) {
-        font-size:16px;
-        font-family: $main-font-stack;
-        font-weight: 500;
-         /* text-transform: uppercase; */ 
-        color: $text-color;
-    
-        &--blue {
-            color: $main-color;
-          }
-    }
+.fifth-title-sm {
+  @media (min-width: 320px) {
+    font-size: 16px;
+    font-family: $main-font-stack;
+    font-weight: 500;
+    /* text-transform: uppercase; */
+    color: $text-color;
 
+    &--blue {
+      color: $main-color;
+    }
+  }
 }
 
 .numbers-background {
-    font-family: $secondary-font-stack;
-    font-size: 70px;
+  font-family: $secondary-font-stack;
+  font-size: 70px;
 
-    &--number-size {
-        font-size: 65px;
-    }
+  &--number-size {
+    font-size: 65px;
+  }
 }
 
 .sixth-title-sm {
-    @media (min-width:320px) {
-        font-size:18px;
-        font-family: $main-font-stack;
-        font-weight: 800;
-     /* text-transform: uppercase;  */
-        color: $title-color;
-    
+  @media (min-width: 320px) {
+    font-size: 18px;
+    font-family: $main-font-stack;
+    font-weight: 800;
+    /* text-transform: uppercase;  */
+    color: $title-color;
+  }
 }
 
 .hero-title-md {
@@ -103,7 +101,7 @@
     font-family: $main-font-stack;
     font-weight: bold;
     /* text-transform: uppercase; */
-    color: $white-color;
+    color: $title-color;
 
     &--blue {
       color: $main-color;
@@ -111,31 +109,19 @@
   }
 }
 
-
-
 .secondary-title-md {
-    @media (min-width: 768px) {
-      font-size: 36px;
-      font-family: $main-font-stack;
-      font-weight: bold;
-       /* text-transform: uppercase;  */
-      color: $white-color;
-  
-      &--blue {
-          color: $main-color;
-        }
-        &--weight {
-            font-weight: 800;
-        
-        
+  @media (min-width: 768px) {
+    font-size: 36px;
+    font-family: $main-font-stack;
+    font-weight: bold;
+    /* text-transform: uppercase;  */
+    color: $title-color;
 
-
-  
+    &--blue {
+      color: $main-color;
+    }
+    &--weight {
+      font-weight: 800;
     }
   }
-
-/* .hero-title-lg {
-  @media (min-width: 1200px) {
-    font-size:1ex ;
-  }
-} */
+}
