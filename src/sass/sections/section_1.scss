@@ -1,8 +1,3 @@
-.container {
-  display: block;
-  margin: 0 auto;
-  padding: 0;
-}
 .secondary-title-sm {
   text-transform: uppercase;
   font-size: 20px;
@@ -11,6 +6,7 @@
   line-height: 1.5;
   font-family: $main-font-stack;
 }
+
 .desc {
   font-weight: bold;
   font-size: 14px;
@@ -18,11 +14,13 @@
   line-height: 1.5;
   font-family: $main-font-stack;
 }
-.text {
+
+.some-text {
   color: #6b6f7a;
   font-size: 14px;
   font-family: $main-font-stack;
 }
+
 .list {
   display: block;
   margin: 0 auto;
@@ -31,12 +29,14 @@
   list-style: none;
   counter-reset: list 0;
 }
+
 .list__item {
   display: block;
   margin-bottom: 60px;
   counter-increment: list;
   position: relative;
 }
+
 .list__item::before {
   display: block;
   font-size: 65px;
@@ -50,12 +50,14 @@
   top: 10px;
   position: absolute;
 }
+
 @media (min-width: 768px) {
   .container {
     width: 709px;
     padding: 0;
     margin: 0 auto;
   }
+
   .list {
     display: flex;
     flex-wrap: nowrap;
@@ -63,12 +65,15 @@
     justify-content: space-between;
     padding: 50px 0;
   }
+
   .list__item {
     width: 190px;
   }
+
   .secondary-title-sm {
     font-size: 24px;
   }
+
   .list__item::before {
     top: 35px;
   }
@@ -80,11 +85,13 @@
     padding-bottom: 40px;
     margin: 0 auto;
   }
+
   .list {
     width: 1070px;
     padding-top: 100px;
     padding-bottom: 0;
   }
+
   .list__item {
     width: 250px;
   }

@@ -7,6 +7,14 @@
 .success_history-item {
   width: 268px;
   margin: 0 auto;
+
+  &:first-child {
+    margin-bottom: 60px;
+  }
+}
+
+.success {
+  padding: 80px 0 70px;
 }
 
 .success_history {
@@ -19,6 +27,7 @@
     font-weight: 700;
     text-transform: uppercase;
     line-height: 1.25;
+    margin-bottom: 30px;
   }
 
   &-item--text {
@@ -27,6 +36,7 @@
     color: $main-color;
     font-weight: 700;
     line-height: 1.5;
+    margin-bottom: 20px;
   }
 
   &-item--color {
@@ -42,7 +52,7 @@
   .success {
     width: 608px;
     margin: 0 auto;
-    margin-top: 60px;
+    padding: 92px 0;
   }
 
   .success_history {
@@ -53,6 +63,11 @@
     
     &-item {
       width: 276px;
+      margin: 0;
+
+      &:first-child {
+        margin-bottom: 0;
+      }
     }
   }
 }
@@ -60,6 +75,7 @@
 @media (min-width: 1200px) {
   .success {
     width: 900px;
+    padding: 105px 0;
   }
 
   .success_history-item {

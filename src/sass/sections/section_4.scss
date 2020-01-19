@@ -4,10 +4,11 @@
 
 .section_start {
   height: 457px;
+  padding-top: 76px;
   text-align: center;
 
   &-logo {
-    margin-top: 76px;
+    margin: 0 auto;
   }
 
   &-carear {
@@ -28,7 +29,7 @@
 }
 
 @media (min-width: 768px) {
-  .section_start-logo {
+  .section_start {
     margin-top: 90px;
   }
 
@@ -41,8 +42,8 @@
 }
 
 @media (min-width: 1200px) {
-  .section_start-logo {
-    margin-top: 100px;
+  .section_start {
+    padding-top: 100px;
   }
 
   .section_start-carear {

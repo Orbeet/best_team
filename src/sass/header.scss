@@ -43,6 +43,10 @@
   text-align: center;
   margin-bottom: 35px;
   padding-top: 30px;
+
+  a {
+    display: inline-block;
+  }
 }
 
 .site-logo a:hover {
@@ -85,7 +89,7 @@
   .header {
     &__image {
       height: 600px;
-      background-image: url(../images/landing-image-top.jpg);
+      background-image: url(../images/landing-top.jpg);
       background-repeat: no-repeat;
       background-size: cover;
     }
