@@ -2,9 +2,12 @@
  * Все паршалы импортировать в этот файл
  */
 
-@import 'helper/variables.scss'; 
+@import 'helpers/variables.scss';
 @import 'normalize.scss';
 @import 'base.scss';
+
+@import 'helpers/typography.scss';
+@import 'helpers/button.scss';
 
 @import 'header.scss';
 @import 'sections/section_1.scss';

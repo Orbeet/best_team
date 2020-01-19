@@ -1,0 +1,157 @@
+.hero-title-sm {
+  @media (min-width: 320px) {
+    font-size: 30px;
+    font-family: $main-font-stack;
+    font-weight: bold;
+    /* text-transform: uppercase; */
+    color: $title-color;
+    &--blue {
+      color: $main-color;
+    }
+  }
+}
+
+.secondary-title-sm {
+  @media (min-width: 320px) {
+    font-size: 20px;
+    font-family: $main-font-stack;
+    font-weight: bold;
+    /* text-transform: uppercase; */
+    color: $title-color;
+
+    &--blue {
+      color: $bright-color;
+    }
+    &--weight {
+      font-weight: 800;
+    }
+    &--black {
+      color: $dark-text-color;
+    }
+  }
+    @media (min-width: 768px) {
+      font-size: 24px;
+    }
+  }
+
+
+.third-title-sm {
+  @media (min-width: 320px) {
+    font-size: 14px;
+    font-family: $main-font-stack;
+    font-weight: 400;
+    color: $text-color;
+
+    &--blue {
+      color: $main-color;
+    }
+    &--weight {
+      font-weight: 800;
+    }
+  }
+}
+
+.fourth-title-sm {
+  @media (min-width: 320px) {
+    font-size: 14px;
+    font-family: $main-font-stack;
+    font-weight: bold;
+
+    color: $text-color;
+
+    &--blue {
+      color: $main-color;
+    }
+    &--weight {
+      font-weight: 800;
+    }
+    &--color {
+      color: #6a707b;
+    }
+    &--uppercase {
+      text-transform: uppercase;
+    }
+    &--black {
+      color: $dark-text-color;
+    }
+  }
+}
+
+.fifth-title-sm {
+  @media (min-width: 320px) {
+    font-size: 16px;
+    font-family: $main-font-stack;
+    font-weight: 500;
+    /* text-transform: uppercase; */
+    color: $text-color;
+    text-align: center;
+
+    &--blue {
+      color: $main-color;
+    }
+    &--weight {
+      font-weight: 800;
+    }
+    @media (min-width: 768px) {
+      font-size: 20px;
+    }
+  }
+}
+
+.numbers-background {
+  font-family: $secondary-font-stack;
+  font-size: 70px;
+
+  &--number-size {
+    font-size: 65px;
+  }
+}
+
+.sixth-title-sm {
+  @media (min-width: 320px) {
+    font-size: 18px;
+    font-family: $main-font-stack;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: $dark-text-color;
+  }
+}
+
+.hero-title-md {
+  @media (min-width: 768px) {
+    font-size: 46px;
+    font-family: $main-font-stack;
+    font-weight: bold;
+    /* text-transform: uppercase; */
+    color: $title-color;
+
+    &--blue {
+      color: $main-color;
+    }
+  }
+}
+
+.secondary-title-md {
+  @media (min-width: 320px) {
+    text-align: center;
+    font-size: 20px;
+
+    &--blue {
+      color: $main-color;
+    }
+  }
+  @media (min-width: 768px) {
+    font-size: 36px;
+    font-family: $main-font-stack;
+    font-weight: bold;
+    color: $title-color;
+    text-align: center;
+
+    &--blue {
+      color: $main-color;
+    }
+    &--weight {
+      font-weight: 800;
+    }
+  }
+}
