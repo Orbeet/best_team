@@ -10,10 +10,6 @@ html {
   box-sizing: inherit;
 }
 
-body {
-
-}
-
 .container {
   min-width: 320px;
   width: 100%;
@@ -31,7 +27,6 @@ body {
 
 @media (min-width: 1200px) {
   .container {
-    max-width: 1070px;
     padding-left: 65px;
     padding-right: 65px;
   }
