@@ -5,7 +5,6 @@
     font-weight: bold;
     /* text-transform: uppercase; */
     color: $title-color;
-
     &--blue {
       color: $main-color;
     }
@@ -21,7 +20,7 @@
     color: $title-color;
 
     &--blue {
-      color: $main-color;
+      color: $bright-color;
     }
     &--weight {
       font-weight: 800;
