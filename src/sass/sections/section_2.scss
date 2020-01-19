@@ -4,22 +4,25 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-color: $bg-gradient;
+  background-image: $bg-gradient;
 }
 
 .section-2__title {
+  color: #fff;
+
   @media (min-width: 1200px) {
     display: block;
   }
 }
 
 .section-2__wrapper {
+  max-width: 280px;
+  margin: 0 auto;
   padding-left: 20px;
   padding-right: 20px;
 
   @media (min-width: 768px) {
     max-width: 620px;
-    margin: 0 auto;
   }
 
   @media (min-width: 1200px) {
@@ -39,7 +42,7 @@
     color: $bright-color;
   }
 
-  @media(min-width: 1200px) {
+  @media (min-width: 1200px) {
     width: 200px;
     margin-right: 150px;
   }
