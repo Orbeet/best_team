@@ -1,0 +1,11 @@
+.main__footer {
+  margin-top:76px;
+  @media (min-width: 768 px) {
+    padding: 50px 0;
+  }
+}
+
+.footer-line {
+  height: 62px;
+  background-color: rgb(31, 34, 43);
+}
