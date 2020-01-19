@@ -1,0 +1,51 @@
+.bg-gradient {
+  background-image: $bg-gradient;
+}
+
+.section_start {
+  height: 457px;
+  text-align: center;
+
+  &-logo {
+    margin-top: 76px;
+  }
+
+  &-carear {
+    font-family: $main-font-stack;
+    font-size: 16px;
+    line-height: 1.563;
+    color: $text-color;
+    width: 246px;
+    margin: 0 auto;
+    margin-top: 40px;
+  }
+}
+
+.color-text {
+  color: $bright-color;
+  text-decoration: none;
+  list-style: none;
+}
+
+@media (min-width: 768px) {
+  .section_start-logo {
+    margin-top: 90px;
+  }
+
+  .section_start-carear {
+    width: 496px;
+    height: 370px;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .section_start-logo {
+    margin-top: 100px;
+  }
+
+  .section_start-carear {
+    width: 691px;
+  }
+}
